@@ -1,32 +1,89 @@
-body{   
-    background-color: black;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    
+    color: rgb(0, 0, 0);
+    background-image:url("/images/bg.jfif");
+}
+body #welcome{
     display: flex;
-    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    padding: 1px;
+    color: wheat;
+}
+.main
+{
+    
+ background-color: rgb(180, 197, 197);
+ border-radius: 8px;
+ position: absolute; 
+ top:90px;
+ right:70px;
+ width:90%;
+ height:60%;
+ margin:2px;
+ padding:2px;
+ display:flex;
+ justify-content:center;
+ align-items: center;
+ color: red;
+}
+.textarea{
+   
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    align-items: center;   
+   
+}
+#text{
+    margin: 4px;
+    padding: 3px;
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+}
+.btn{
+   
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 34px;
+   }
+.btn #char{
+    position: absolute;
+    right:200px;
+    top: 20px;
+    
+}
+.btn #word{
+    position: relative;
+    top: 20px;
+    left:200px;
+    
+}
+.btn .btn1{
+    background-color: brown;
+    position: relative;
+    bottom: 33px;
+    position: absolute;
+    right:170px;
+    padding: 2px;
+    color: wheat;
 
 }
-
-.container{
-    background-color: rgb(190, 190, 236);
-    border: 3px solid rgb(110, 106, 106);
-    margin: auto;
-    width: 200vh;
-    height: 80vh;
-    display: flex;
-    
-    
-}
-.text{
-   display: inline-block;
-    margin: auto;
-      
-}
-#area{
-    background-color: rgb(253, 250, 250);
-    color:blue;
-}
-#counter{
-   display: inline-block;
-   margin: 4px;
-   padding: 4px;
-   border: 2px solid wheat;
+.btn .btn2
+{
+    background-color:brown;
+    border-radius: 2px;
+    position: relative;
+    left:170px;
+    bottom: 15px;
+    padding: 2px;
+    color: wheat;
 }
